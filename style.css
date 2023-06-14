@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(111, 138, 133);
+}
+h1 {
+    text-align: center;
+    position: static;
+    margin-block-start: 16%;
+    font-size: 60px;
+}
+div {
+    text-align: center;
+    font-size: 30px;
+}
+button {
+    border-style: double;
+}
+#value {
+    font-size: 80px;
+    font-weight: bold;
+}
+.btn {
+    text-transform: uppercase;
+    color: var(--clr-black);
+    padding: 10px 10px;
+    transition: var(--transition);
+    cursor: pointer;
+    margin: 7px;
+}
+.btn:hover {
+    color: var(--clr-white);
+    background: var(--clr-black);
+}
